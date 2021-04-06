@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wel Hello There</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        
+        h1{
+            position: relative;
+            text-align: center;
+            color:red;
+        }
+        h1:active{
+            color: grey;
+        }
+        .box{
+            background: #ffffff;
+            background-image: url(amongus.jpg);
+        
+        }
+
+
+        .divHeader{
+            border: xxx solid transparent;
+            margin-left: auto;
+            margin-right: 10px;
+            width:fit-content;
+            background-color: hotpink;
+
+        }
+        .s, .m, .lg{
+
+            margin: 10px;
+            float : left;
+            height:fit-content;
+            overflow: auto;
+            background-color: salmon;
+        }
+
+        @media (min-width: 1000px){
+            .lg{
+                width: calc(33.33% - 20px);
+            }
+        }
+        @media (min-width: 700px) and (max-width : 999px) {
+            .md{
+                width: calc(50% - 20px);
+            }
+            #third{
+                width: calc(100% - 20px);
+            }
+            
+        }
+        @media (max-width : 699px){
+            .s{
+                width: calc(100% - 20px);
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>DIS DO BE SUS</h1>
+    <div style="background-image: url(amongus.jpg);"> 
+        <div class ="box">
+            <div class="lg md s">
+                <h3 class="divHeader">header 1</h3>
+                <p> IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ
+                    IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ
+                    IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ
+                </p>
+            </div>
+            <div class= "lg md s">
+                <h3 class="divHeader">header 2</h3>
+                <p> IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ
+                    IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ
+                    IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ
+                    
+                </p>
+            </div>
+            <div id ="third" class="lg md s">
+                <h3 class="divHeader">header 3</h3>
+                <p> IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ
+                    IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ
+                    IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ IMPOSTERZ
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
